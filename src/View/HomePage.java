@@ -43,12 +43,10 @@ public class HomePage extends javax.swing.JFrame {
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 70, -1, 280));
 
         jLabel3.setFont(new java.awt.Font("Poppins Medium", 1, 18)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("Live Sport Football League");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 400, -1, -1));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 400, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Poppins Medium", 1, 22)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("SELAMAT DATANG");
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 360, -1, -1));
 

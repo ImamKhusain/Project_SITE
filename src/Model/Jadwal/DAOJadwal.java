@@ -1,7 +1,7 @@
 package Model.Jadwal;
 
 import Model.Connector;
-import Model.ModelJadwal;
+import Model.Jadwal.ModelJadwal;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +16,7 @@ public class DAOJadwal {
 
     public List<ModelJadwal> getAllJadwal() {
         List<ModelJadwal> list = new ArrayList<>();
-        String query = "SELECT * FROM jadwal";
+        String query = "SELECT * FROM jadwal ORDER BY tanggal ASC";
 
         try (Statement stmt = conn.createStatement(); ResultSet rs = stmt.executeQuery(query)) {
             while (rs.next()) {

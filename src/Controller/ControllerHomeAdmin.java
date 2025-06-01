@@ -1,7 +1,7 @@
 package Controller;
 
 import Model.Jadwal.DAOJadwal;
-import Model.ModelJadwal;
+import Model.Jadwal.ModelJadwal;
 import View.Admin.HomeAdmin;
 import View.Guest.HomeGuest;
 
